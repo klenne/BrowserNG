@@ -1,0 +1,24 @@
+{
+  "name": "browser-ng",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "playwright": "^1.46.0",
+    "puppeteer": "^23.0.2"
+  }
+}
